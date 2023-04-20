@@ -1,0 +1,38 @@
+Intro to Hugging Face: Fine-tuning BERT for NLP tasks
+https://github.com/jkchandalia/nlpower/tree/main/notebooks
+
+* Transformer
+
+*Hugging Face
+https://huggingface.co/models
+https://huggingface.co/datasets
+
+
+* BERT
+https://github.com/danasaur/bert
+https://speakerdeck.com/bigdana/pycon2023-bert
+https://speakerdeck.com/bigdana/pycon2023-bert?slide=18
+
+Playground:
+https://huggingface.co/bert-base-cased?text=I%27m+the+%5BMASK%5D+in+the+world
+
+# bert-based-uncased
+https://colab.research.google.com/github/danasaur/bert/blob/main/notebooks/1_bert-base-uncased.ipynb
+
+# Generative AI
+https://github.com/jkchandalia/nlpower/blob/main/notebooks/3.0%20Generative_AI_GPT.ipynb
+
+# AWS code whisperer
+https://aws.amazon.com/codewhisperer/
+
+# Stable Diffusion
+https://github.com/jkchandalia/nlpower/blob/main/notebooks/
+
+https://colab.research.google.com/github/jkchandalia/nlpower/blob/main/notebooks/3.1%20Generative_AI_Diffusion.ipynb#scrollTo=kHS6pwBXmqtD
+
+https://openai.com/product/dall-e-2
+
+https://huggingface.co/docs/diffusers/index
+
+BIAS:
+https://github.com/jkchandalia/nlpower/blob/main/notebooks/4.0%20AI_and_society.ipynb

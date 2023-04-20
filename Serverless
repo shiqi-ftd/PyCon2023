@@ -1,0 +1,15 @@
+PyScript
+
+What's PyScript
+- platform for running Python in a Browser
+- Config, Code, REPL
+- No server needed
+
+https://pyscript.com/new-project
+
+
+https://pyodide.org/en/stable/
+Pyodide makes it possible to install and run Python packages in the browser with micropip. Any pure Python package with a wheel available on PyPI is supported. Many packages with C extensions have also been ported for use with Pyodide. These include many general-purpose packages such as regex, pyyaml, lxml and scientific Python packages including numpy, pandas, scipy, matplotlib, and scikit-learn.
+
+Pyodide comes with a robust Javascript ⟺ Python foreign function interface so that you can freely mix these two languages in your code with minimal friction. This includes full support for error handling (throw an error in one language, catch it in the other), async/await, and much more.
+

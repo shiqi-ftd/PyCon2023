@@ -1,0 +1,42 @@
+By Jina AI
+
+Typing in Python - is python typed? It's duck typed
+
+def add(x, y):
+    return x + y
+
+Pros: Simple, Concise, 
+
+Cons: Hard to maintain, Fail at Runtime instead of Compile Time 
+
+Python Type hints in ML
+
+
+Hints:
+1. Communication with Coworkers, Future Self, includes
+2. Find bugs early (w additional tooling)
+3. Compatible with duck typing
+
+PEP - Python Enhancement Proposal
+Python1,2,3.0 no type hints -> Python3 PEP3107 with Annotation(!= hints)
+-> 2014 Py3.5 PEP484 Typing!
+
+
+Mypy - static type checking
+Beartype - runtime checking
+* Pydantic - Data validation using type hints
+FastAPI is based on Pydantic vs Flask
+SQLModel - based on Pydantic
+...
+
+What about ML framework?
+
+Jaxtyping - checks the shape and dtype of Arrays - doesn't work with Pydantic
+
+Multimodal AI enters the game
+Required data types:
+Image/Audio/Video/3D mesh/Tensor
+
+DocArray - main product
+https://github.com/docarray/docarray
+Represent/Send/Store

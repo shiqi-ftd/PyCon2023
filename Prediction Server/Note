@@ -1,0 +1,26 @@
+https://eswan18.github.io/sklearn-api-deploy-slides/sklearn-api-deploy.slides.html#/2
+
+
+Create a python virtual environment:
+
+https://github.com/eswan18/sklearn-api-deploy
+
+source sklearn-api-deploy/prediction/bin/activate
+
+FastAPI
+
+Enter the venv:
+Within app-section-2, create a folder just for venv say new_name:
+python3 -m venv new_name
+source new_name/bin/activate
+within the app-section-2:
+pip install -e .
+
+
+Pydantic -> Py D Antic
+
+Pydantic models
+Pydantic is a library for defining data models
+
+It provides automatic validation that the data is the right type
+It also automatically converts to/from JSON, a common interchange format for the web
