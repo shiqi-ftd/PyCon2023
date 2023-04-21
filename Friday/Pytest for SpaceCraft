@@ -1,0 +1,13 @@
+Volume and Criticality different between WebService and Spacecraft
+
+Ariane 5 example - software defects are often specification defects not random failures
+
+Planetary Society LightSail-1
+Software defects can accumulate over time
+On-orbit software update
+
+...
+
+
+Pytest Fixtures
+Pytest fixtures are functions that can be used to manage our apps states and dependencies.
