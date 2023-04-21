@@ -1,0 +1,13 @@
+AstroPy project - https://www.astropy.org/
+
+https://www.stsci.edu/scientific-community/community-missions/missions
+
+JWST - https://webb.nasa.gov/
+
+Clear sign of Dark matter 
+
+- Data reduction Pipeline - reduce complexity in order to make sense(not neccessarily means smaller data size)
+- Data Analysis Tools(w jupyter)
+- Community and open source
+
+pip install jwst
