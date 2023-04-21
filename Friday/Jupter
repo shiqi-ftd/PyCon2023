@@ -1,0 +1,10 @@
+Goal Generate Pokemon with Stable Diffusion to train LoRA 
+
+https://huggingface.co/blog/lora
+
+Data Version Control
+https://github.com/iterative/dvc
+
+
+Data Science is about experienment, jupyter notebook is good for prototyping but not best for keeping track of the records
+(reproducible) - git + dvc 
