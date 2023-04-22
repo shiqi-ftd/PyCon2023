@@ -20,7 +20,6 @@ Backlogs / Replays / Overflow
 
 2. Reconciliation(Control) Loops
 Stateless controls over a center storage/service
-
  - Single point failure(only maintain one)
  - How do loops fail? slow down and halt but with easy restarts and no data loss
  - Each controller must be stateless, this lets you scale them up, down, restart, upgrade, and recover easily
