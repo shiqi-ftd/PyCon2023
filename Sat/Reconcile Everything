@@ -1,0 +1,26 @@
+https://www.astronomer.io/
+Andrew Gogwin
+
+Good distributed system:
+1. Event-driver via queues
+2. Reconciliation(Control) Loops
+
+What's good?
+Low maintainance and high reliability
+
+Why distributed?
+Due to size(often claim)/team structure(actual reason)/due to federation
+
+A system is defined by its fauilure modes
+
+Queues:
+At-most-once / At-least-once(kafka)
+Backlogs / Replays / Overflow
+
+
+2. Reconciliation(Control) Loops
+Stateless controls over a center storage/service
+
+ - Single point failure(only maintain one)
+ - How do loops fail? slow down and halt but with easy restarts and no data loss
+ - Each controller must be stateless, this lets you scale them up, down, restart, upgrade, and recover easily
