@@ -11,3 +11,7 @@ On-orbit software update
 
 Pytest Fixtures
 Pytest fixtures are functions that can be used to manage our apps states and dependencies.
+https://docs.pytest.org/en/6.2.x/fixture.html
+
+Digital Apollo:
+https://www.goodreads.com/book/show/2422710.Digital_Apollo

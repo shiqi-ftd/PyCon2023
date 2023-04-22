@@ -1,0 +1,60 @@
+Syntactic Sugar
+
+Brett Cannon
+https://github.com/brettcannon
+
+1. Integers
+2. Function Calls
+3. while
+4. try/except
+5. raise
+6. def
+7. return
+8. yield
+9. assignment
+10. nonlocal
+
+
+x.y -> getattr(x, "Y")   (cpython)
+
+Decrator:
+@x
+def Y():
+    pass
+
+def _Y():
+    pass
+
+Y = X(_Y)
+
+Special Methods:
+~X 
+type(X).__invert__(X)
+
+Binary Operator:
+X - Y
+
+type(X).__sub__(X, Y)
+type(Y).__rsub__(Y, X)
+
+tyep(X) != type(Y)
+.... lengthy and complicated!
+
+Sugar on top of sugar:
+if X:
+    Y
+
+while X:
+    y 
+    break(we don't have)
+
+while not _DONE and X: (we don't have and)
+    y 
+    _DONE = True
+
+try:
+    while X:
+        y 
+        raise _DONE
+except _DONE:
+    None
